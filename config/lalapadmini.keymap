@@ -170,7 +170,7 @@
             bindings = <
 &kp Q             &kp P         &kp U      &kp Y      &kp COMMA   &kp J            &kp D      &kp H  &kp G                    &kp W
 &kp I             &kp O         &kp E      &kp A      &kp PERIOD  &kp K            &kp T      &kp N  &kp S                    &mt2 EQUAL R
-&mt LEFT_SHIFT Z  &kp X         &kp MINUS  &kp C      &kp SLASH   &kp M            &kp F      &kp L  &kp B                    &mt RSHIFT V
+&mt LEFT_SHIFT Z  &kp X         &kp MINUS  &kp C      &kp SLASH   &kp M            &kp L      &kp F  &kp B                    &mt RSHIFT V
 &kp LCTRL         &kp LEFT_ALT             &kp SPACE  &mo 1       &lt 2 BACKSPACE  &kp ENTER         &mt CAPSLOCK LANGUAGE_2  &mt RCTRL LANGUAGE_1
             >;
         };
@@ -180,10 +180,10 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&mt2 F1 NUMBER_1  &mt2 F2 NUMBER_2  &mt2 F3 NUMBER_3  &mt2 F4 NUMBER_4  &mt2 F5 N5         &kp KP_COMMA     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
-&mt2 F6 NUMBER_6  &mt2 F7 N7        &mt2 F8 N8        &mt2 F9 N9        &mt2 F10 N0        &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK
-&mt2 F11 GRAVE    &mt2 F12 SQT      &kp SEMICOLON     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
-&trans            &trans                              &trans            &trans             &kp DELETE       &trans                            &none            &kp KP_PLUS
+&mt2 F1 NUMBER_1  &mt2 F2 NUMBER_7   &mt2 F3 NUMBER_8  &mt2 F4 NUMBER_9  &kp MINUS   &kp F6           &kp F7           &kp F8           &kp F9           &kp F10
+&kp F11           &mt2 F12 NUMBER_4  &kp N5            &kp NUMBER_6      &kp PLUS    &kp LEFT         &kp DOWN         &kp UP_ARROW     &kp RIGHT        &kp KP_ASTERISK
+&mt2 F11 GRAVE    &kp NUMBER_1       &kp NUMBER_2      &kp NUMBER_3      &kp PERIOD  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
+&trans            &kp NUMBER_0                         &trans            &trans      &kp DELETE       &trans                            &none            &kp KP_PLUS
             >;
         };
 
@@ -215,7 +215,7 @@
             display-name = "mouse_r_layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans       &mkp MCLK  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &MACRO_LTAP  &mkp LCLK  &mkp RCLK  &mo 5
+&trans  &trans  &trans  &trans  &trans  &trans  &MACRO_LTAP  &mkp LCLK  &mkp RCLK  &mo 6
 &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4     &none      &mkp MB5   &trans
 &trans  &trans          &trans  &trans  &trans  &trans                  &trans     &trans
             >;
