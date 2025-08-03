@@ -169,7 +169,7 @@
 
             bindings = <
 &kp Q               &kp P         &kp U      &kp Y      &kp COMMA   &kp J            &kp D      &kp H  &kp G                    &kp W
-&mt LEFT_COMMAND I  &kp O         &kp E      &kp A      &kp PERIOD  &kp K            &kp T      &kp N  &kp S                    &mt2 EQUAL R
+&mt LEFT_COMMAND I  &kp O         &kp E      &kp A      &kp PERIOD  &kp K            &kp T      &kp N  &kp S                    &mt2 RIGHT_ALT R
 &mt LEFT_SHIFT Z    &kp X         &kp MINUS  &kp C      &kp SLASH   &kp M            &kp L      &kp F  &kp B                    &mt RSHIFT V
 &kp LCTRL           &kp LEFT_ALT             &kp SPACE  &mo 1       &lt 2 BACKSPACE  &kp ENTER         &mt CAPSLOCK LANGUAGE_2  &mt RCTRL LANGUAGE_1
             >;
