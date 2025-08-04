@@ -216,7 +216,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans       &mkp MCLK  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &MACRO_LTAP  &mkp LCLK  &mkp RCLK  &mo 6
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4     &none      &mkp MB5   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4     &mkp MB3   &mkp MB5   &trans
 &trans  &trans          &trans  &trans  &trans  &trans                  &trans     &trans
             >;
         };
